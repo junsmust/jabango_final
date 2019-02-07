@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name_edt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="임명준"/>
+    <EditText
+        android:id="@+id/email_edt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="email"
+        android:layout_gravity="center"
+        android:text="isp3087@gmail.com"/>
+    <EditText
+        android:id="@+id/pw_edt1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:text="audwns1029!"/>
+    <EditText
+        android:id="@+id/pw_edt2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="re_password"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:text="audwns1029!"/>
+    <RadioGroup
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/women"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여성"/>
+        <RadioButton
+            android:id="@+id/man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남성"
+            android:layout_gravity="end"
+            android:layout_marginLeft="20dp"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="sign up"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>

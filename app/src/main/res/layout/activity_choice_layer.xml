@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+                <TextView
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_gravity="left"
+                android:text="1"
+                android:textSize="60dp"
+                />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+           >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="입주 가능 인원 "
+                        android:textColor="#000000"
+                        android:textSize="24sp" />
+                    <TextView
+
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="현재 입주 인원"
+                        android:layout_gravity="end"
+                       />
+
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/first_available_people"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="00 "
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:id="@+id/first_already_people"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="00"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:text="총 가용 인원 "
+                        android:layout_weight="1"/>
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/first_all_available_people"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="00 "
+                        android:layout_weight="1"/>
+                    <Button
+                        android:id="@+id/first_layer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="방고르기"
+                        android:background="#ffffff"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+
+
+                        />
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:text="2"
+            android:textSize="60dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="입주 가능 인원 "
+                        android:textColor="#000000"
+                        android:textSize="24sp" />
+                    <TextView
+
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="현재 입주 인원"
+                        android:layout_gravity="end"
+                        />
+
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/second_available_people"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="00 "
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:id="@+id/second_already_people"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="00"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:text="총 가용 인원 "
+                        android:layout_weight="1"/>
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/second_all_available_people"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="00 "
+                        android:layout_weight="1"/>
+                    <Button
+                        android:id="@+id/second_layer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="방고르기"
+                        android:background="#ffffff"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:text="3"
+            android:textSize="60dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="입주 가능 인원 "
+                        android:textColor="#000000"
+                        android:textSize="24sp" />
+                    <TextView
+
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="현재 입주 인원"
+                        android:layout_gravity="end"
+                        />
+
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/third_available_people"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="36 "
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:id="@+id/third_already_people"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="26"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:text="총 가용 인원 "
+                        android:layout_weight="1"/>
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/third_all_available_people"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="64 "
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/third_layer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="방고르기"
+                        android:background="#ffffff"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:text="4"
+            android:textSize="60dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="입주 가능 인원 "
+                        android:textColor="#000000"
+                        android:textSize="24sp" />
+                    <TextView
+
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="현재 입주 인원"
+                        android:layout_gravity="end"
+                        />
+
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/fourth_available_people"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="10 "
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:id="@+id/fourth_already_people"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="52"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:text="총 가용 인원 "
+                        android:layout_weight="1"/>
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:id="@+id/fourth_all_available_people"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:text="62 "
+                        android:layout_weight="1"/>
+                    <Button
+                        android:id="@+id/fourth_layer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="방고르기"
+                        android:background="#ffffff"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/roomate_1"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/roomate_2"
+            android:text="2"
+            android:textSize="20dp"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/roomate_3"
+            android:text="3"
+            android:textSize="20dp"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/roomate_4"
+            android:text="4"
+            android:textSize="20dp"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/getIntoRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="입실하기"
+        android:background="@color/black"/>
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="방고르기"
+        android:background="@color/black"
+        android:textColor="#ffffff"
+        android:layout_marginTop="3dp"
+        />
+    <Button
+        android:id="@+id/exit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="방 나가기"
+        android:background="@color/black"
+        android:textColor="#ffffff"
+        android:layout_marginTop="3dp"
+        />
+</LinearLayout>

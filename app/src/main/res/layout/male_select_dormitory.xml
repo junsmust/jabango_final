@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+
+        <Button
+            android:id="@+id/simjeon1_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_weight="1"
+            android:background="@drawable/simjeon1"
+            android:text="심전1관"
+            android:textColor="#ffffff"/>
+
+
+        <Button
+            android:id="@+id/simjeon2_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/simjeon2"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:text="심전2관"
+            android:textColor="#ffffff"/>
+
+
+
+
+</LinearLayout>

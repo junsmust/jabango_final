@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".fragment.MyFragment"
+android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/room_simjeon_2"
+            android:layout_weight="1"
+            android:text="방 구조"
+            tools:ignore="NestedWeights"
+            android:background="#ffffff"/>
+
+        <ImageView
+            android:id="@+id/room_img2"
+            android:layout_below="@id/room_simjeon_2"
+            android:layout_width="wrap_content"
+            android:layout_height="264dp"
+            android:src="@drawable/room_simjeon_2" />
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/showerroom_simjeon_2"-->
+            <!--android:text="샤워 장"-->
+            <!--android:background="#ffffff"-->
+            <!--android:layout_below="@+id/room_img2"/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/shower_room"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="234dp"-->
+            <!--android:layout_below="@+id/showerroom_simjeon_2"-->
+            <!--android:layout_marginTop="-2dp"-->
+            <!--android:src="@drawable/shower_room_simjeon_2" />-->
+        <!--<TextView-->
+            <!--android:layout_below="@id/shower_room"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/studyroom_simjeon_1"-->
+            <!--android:text="공부방"-->
+            <!--android:background="#ffffff"/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/studyroom_simjeon_1_1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_below="@+id/studyroom_simjeon_1"-->
+            <!--android:layout_marginTop="0dp"-->
+            <!--android:src="@drawable/study_room_simjeon_2" />-->
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/facility_simjeon_1"-->
+            <!--android:text="세탁실"-->
+            <!--android:background="#ffffff"-->
+            <!--android:layout_below="@id/studyroom_simjeon_1_1"/>-->
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:layout_below="@+id/facility_simjeon_1"-->
+            <!--android:src="@drawable/washmachine_simjeon_2"/>-->
+
+    </RelativeLayout>
+</ScrollView>
+
+
+
+
+</LinearLayout>

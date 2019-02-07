@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="major">
+    <item>사회복지학부</item>
+    <item>복지융합부</item>
+    <item>글로벌경영학부</item>
+    <item>경제세무학과</item>
+    <item>공공인재학과</item>
+    <item>융합자유전공학</item>
+    <item>기독교학과</item>
+    <item>한영문화콘텐츠학과</item>
+    <item>글로벌학부</item>
+    <item>음악학과</item>
+    <item>소프트웨어응용학부</item>
+    <item>IoT전자공학과</item>
+    <item>산업데이터사이언스학부</item>
+    <item>부동산건설학과</item>
+    <item>교육학과</item>
+    <item>유아교육과</item>
+    <item>초등특수교육과</item>
+    <item>중등특수교육과</item>
+
+
+</string-array>
+</resources>

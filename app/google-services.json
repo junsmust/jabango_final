@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "397581988386",
+    "firebase_url": "https://jabango-47237.firebaseio.com",
+    "project_id": "jabango-47237",
+    "storage_bucket": "jabango-47237.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397581988386:android:5eaccffa5f0e8bdb",
+        "android_client_info": {
+          "package_name": "yaksok.dodream.com.jabango"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397581988386-ljvghhmm8it513od603409ju2mbme2kt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yaksok.dodream.com.jabango",
+            "certificate_hash": "6b763bd87e252712f789b3c51d3d2c69b2875bf5"
+          }
+        },
+        {
+          "client_id": "397581988386-r7aqc899pc1lmkjaaq49bkrlllvdggb4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCglWR5O8TH8HDTGHrL1p_mwrfM9UcsMpE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397581988386-r7aqc899pc1lmkjaaq49bkrlllvdggb4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

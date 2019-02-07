@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yaksok.dodream.com.jabango">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:hardwareAccelerated="false"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUP" />
+        <activity android:name=".SelectDormitory" />
+        <activity
+            android:name=".Simjeon_First_Layer"
+            android:label="@string/title_activity_simjeon_1"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Simjeon_2"
+            android:label="@string/title_activity_simjeon_2"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".CreateRoom" />
+        <activity android:name=".Input_user_information" />
+        <activity android:name=".Female_Simgeon" />
+        <activity
+            android:name=".Female_simjeon_1"
+            android:label="@string/title_activity_female_simjeon_1"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Female_simjeon_2"
+            android:label="@string/title_activity_female_simjeon_2"
+            android:theme="@style/AppTheme" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".ChoiceLayer" />
+        <activity
+            android:name=".Simjeon_Second_Layer"
+            android:label="@string/title_activity_simjeon_second"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ShowFacility"></activity>
+        <activity android:name=".Input_user_information_2">
+
+        </activity>
+    </application>
+
+</manifest>
